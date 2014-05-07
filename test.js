@@ -27,8 +27,3 @@ test('countPerDay.array()', function (t) {
   )
   t.end()
 })
-
-console.log('You can get the counts by day as an object')
-console.log(countPerDay(days))
-console.log('But you can also get it as an array from first date to last date')
-console.log(countPerDay.array(days))
