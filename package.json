@@ -1,6 +1,6 @@
 {
   "name": "count-per-day",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get counts per day from a list of dates",
   "main": "count-per-day.js",
   "scripts": {
