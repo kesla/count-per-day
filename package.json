@@ -8,11 +8,7 @@
   },
   "author": "David Björklund <david.bjorklund@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "lodash.countby": "^2.4.1",
-    "lodash.min": "^2.4.1",
-    "lodash.max": "^2.4.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "tap": "^0.4.9"
   },

@@ -1,17 +1,20 @@
-var countBy = require('lodash.countby')
-  , min = require('lodash.min')
-  , max = require('lodash.max')
-  , dateToDay = function (date) {
+var dateToDay = function (date) {
       return date.toJSON().slice(0, 10)
     }
   , countByDay = function (days) {
-      return countBy(days, function (day) {
-        return dateToDay(day)
+      var count = {};
+
+      days.forEach(function (date) {
+        var day = dateToDay(date)
+        count[day] = (count[day] || 0) + 1
       })
+
+      return count
     }
   , array = function (days) {
-      var from = min(days)
-        , to = max(days)
+      var sorted = days.sort(function (x, y) { return y - x })
+        , to = sorted[0]
+        , from = sorted[sorted.length - 1]
         , countByDayObj = countByDay(days)
         // day is begining of the day
         , date = new Date(dateToDay(from))
