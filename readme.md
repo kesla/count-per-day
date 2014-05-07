@@ -1,4 +1,4 @@
-# count-per-day
+# count-per-day[![build status](https://secure.travis-ci.org/kesla/count-per-day.png)](http://travis-ci.org/kesla/count-per-day)
 
 Get counts per day from a list of dates
 
