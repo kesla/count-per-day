@@ -1,0 +1,27 @@
+{
+  "name": "count-per-day",
+  "version": "1.0.0",
+  "description": "Get counts per day from a list of dates",
+  "main": "count-per-day.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "author": "David Björklund <david.bjorklund@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.countby": "^2.4.1",
+    "lodash.min": "^2.4.1",
+    "lodash.max": "^2.4.1"
+  },
+  "devDependencies": {
+    "tap": "^0.4.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kesla/count-per-day.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kesla/count-per-day/issues"
+  },
+  "homepage": "https://github.com/kesla/count-per-day"
+}
